@@ -81,3 +81,5 @@ console.log(null || "user")
 console.log("Agnes" || "user")
 // → Agnes
 ```
+
+# Functions and side effects
