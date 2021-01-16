@@ -6,6 +6,17 @@ To be able to work with such quantities of bits without getting lost, we must se
 > In a JS environment, those chunks are called Values.
 Every value has to be stored somewhere, and if you want to use a gigantic amount of them at the same time, you might run out of memory.
 As soon as you no longer use a value, it will dissipate, leaving behind its bits to be recycled as building material for the next generation of values.
+
+# Primitive values & Objects
+There are 6 primitive values:
+
+1. Boolean
+2. numbers
+3. String
+4. Null
+5. Undefined
+6. symbol (ES 2015)
+
 ## Arithmetic operations
 
 * Plus: +
@@ -24,7 +35,6 @@ As soon as you no longer use a value, it will dissipate, leaving behind its bits
 Values of the number type are numeric values. 
 
 **Factional Numbers** are written by using a dot: 9.81
-
 
 ### Basic type 2: Special Numbers
 
@@ -83,3 +93,7 @@ console.log("Agnes" || "user")
 ```
 
 # Functions and side effects
+
+The function keyword, when used as an expression, can create a function value. When used as a statement, it can be used to declare a binding and give it a function as its value. Arrow functions are yet another way to create functions.
+
+A key aspect in understanding functions is understanding scopes. Each block creates a new scope. 
