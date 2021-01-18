@@ -118,7 +118,7 @@ console.log(blackRabbit.teeth);
 console.log(Rabbit.prototype.teeth);
 # // → small
 ```
-
+To
 # MAPS
 A map (noun) is a data structure that associates values (the keys) with other values.
 
@@ -146,3 +146,4 @@ Rabbit.prototype.toString = function() {
 console.log(String(blackRabbit));
 // → a black rabbit
 ```
+

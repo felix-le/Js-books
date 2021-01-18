@@ -17,6 +17,27 @@ There are 6 primitive values:
 5. Undefined
 6. symbol (ES 2015)
 
+# function expressions && function declarations
+
+**function declarations**
+```bash
+function greeting () {
+    console.log('Hello world')
+}
+```
+
+**function expressions**
+
+```bash
+const greeting = function () {
+    console.log('Hello world')
+}
+
+const greeting = () => {
+    console.log('Hello world')
+}
+```
+
 ## Arithmetic operations
 
 * Plus: +
@@ -97,3 +118,5 @@ console.log("Agnes" || "user")
 The function keyword, when used as an expression, can create a function value. When used as a statement, it can be used to declare a binding and give it a function as its value. Arrow functions are yet another way to create functions.
 
 A key aspect in understanding functions is understanding scopes. Each block creates a new scope. 
+
+# 
